@@ -1,3 +1,12 @@
 ID: main
 _schema-version: '2.1'
 version: 0.0.1
+
+modules:
+ - name: server
+   type: nodejs
+   path: server
+   provides:
+    - name: server_api
+      properties:
+         url: ${default-url}

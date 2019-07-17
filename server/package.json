@@ -1,0 +1,22 @@
+{
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-replace": "0.5.4",
+    "jasmine-reporters": "2.1.1",
+    "gulp-jasmine": "2.4.1",
+    "gulp-istanbul": "1.1.1"
+  },
+  "files": [],
+  "main": "index.js",
+  "name": "server",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node ./node_modules/gulp/bin/gulp test",
+    "test-coverage": "node ./node_modules/gulp/bin/gulp test-coverage"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "version": "1.0.0"
+}
