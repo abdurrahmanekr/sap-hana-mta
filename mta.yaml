@@ -10,3 +10,19 @@ modules:
     - name: server_api
       properties:
          url: ${default-url}
+
+ 
+
+
+ - name: db
+   type: hdb
+   path: db
+   requires:
+    - name: hdi_db
+
+
+resources:
+ - name: hdi_db
+   properties:
+      hdi-container-name: ${service-name}
+   type: com.sap.xs.hdi-container
