@@ -1,15 +1,16 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "Hello world app with express 4",
+  "description": "SAP HANA XS Node.js Database Application",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "express",
-    "hello-world"
+    "sap-hana-xs",
+    "hana-client",
+    "sap-hana-nodejs"
   ],
   "author": "Avare Kodcu <abdurrahmaneker58@gmail.com>",
   "license": "MIT",
