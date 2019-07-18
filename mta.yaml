@@ -10,11 +10,7 @@ modules:
     - name: server_api
       properties:
          url: ${default-url}
- - name: db
-   type: hdb
-   path: db
-   requires:
-    - name: hdi_db_2
+ 
 
 resources:
  - name: hdi_db

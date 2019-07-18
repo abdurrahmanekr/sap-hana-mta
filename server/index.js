@@ -7,7 +7,7 @@ var hana = require('@sap/hana-client');
 var conn_params = {
     serverNode  : 'hxehost:39013',
     uid         : 'system',
-    pwd         : '*****' // sistem şifresi
+    pwd         : '****' // sistem şifresi
 };
 
 var conn = hana.createConnection();
