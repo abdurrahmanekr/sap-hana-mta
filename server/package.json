@@ -14,6 +14,7 @@
   "author": "Avare Kodcu <abdurrahmaneker58@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@sap/hana-client": "^2.4.144",
     "express": "^4.15.0"
   },
   "engines": {
